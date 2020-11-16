@@ -37,7 +37,7 @@ fun main(){
     //println("1st Character " + firstCharInStr + ' ' + lastCharInStr)
     //println("Character Length: " + countCharInStr)
 
-
+/* ---------------------------------------------------------------------- */
     //Arithmetic operators (+, -, *, /, %)
     var result = 5+3
     val a = 5.0
@@ -49,8 +49,32 @@ fun main(){
     result += 10
     result -= 5
     result %= 2  //Modulo (Mod)
-    println(resultTwo)
+ //   println(resultTwo)
 
+/* ------------------------------- Comparision Operators (==, >=, <=, !=, >, <) --------------------------------------- */
     //Comparision Operators (==, >=, <=, !=, >, <)
-    
+    //Inter Polation
+   // val isEqual = 5==3
+   // println("isEqual is $isEqual")
+
+   // val isNotEqual = 5!=5
+   // println("isNotEqual: $isNotEqual $isEqual")
+   // println("is5lessthan3? ${5<3}")
+   // println("is 10 Greater Equal 11 ?: ${11 <= 11}")
+
+/* ------------------------------- //Assignment operators (+=, -=, /=, %=) --------------------------------------- */
+    //Assignment operators (+=, -=, /=, %=)
+    var number = 80
+    number += 3
+   // number *= 5
+    println("Result of mynum: $number")
+
+    //Increment & Decrement operators (++, --)
+    number--
+    println("Result of inc and dec: $number")
+    println("Result of inc and dec: ${number--}")
+    println("Result of inc and dec: ${--number}")
+
+    println("Result of inc and dec: ${++number}")
+    println("Result of inc and dec: ${number + 5}")
 }
